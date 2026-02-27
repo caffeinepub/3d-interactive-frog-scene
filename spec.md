@@ -1,50 +1,13 @@
-# 3D Interactive Frog Scene
+# Specification
 
-## Overview
-A cartoonish 3D interactive scene featuring a frog jumping out of a window with various animated characters and props in a playful environment.
+## Summary
+**Goal:** Add a 3D necklace accessory to the Stitch character in the existing 3D scene.
 
-## Core Features
+**Planned changes:**
+- Add a `StitchNecklace` sub-component in `FrogScene.tsx` following the existing `StitchGlasses` pattern
+- Render the necklace as 3D geometry (a looping chain/band around the neck plus a small pendant or bead)
+- Position and scale the necklace correctly around Stitch's neck to match his cartoon proportions
+- Apply a gold or metallic material fitting Stitch's cartoon aesthetic
+- Ensure the necklace moves with Stitch during jump/squash-stretch animations
 
-### 3D Scene Components
-- **Frog Character**: Main animated character that jumps energetically out of a window
-- **Window**: 3D window structure that the frog jumps through
-- **Stick Prop**: Interactive stick element that the frog can push off from or serves as background scenery
-- **Angel Character**: Secondary character present in the scene
-- **User Avatar**: Character representation of the user observing or participating in the action
-
-### Animation System
-- Energetic jumping animation for the frog character
-- Reload/reset animation with visual cues (flash effects or smooth scene reset)
-- Continuous loop of the main jumping sequence
-- Expressive character motions throughout the scene
-
-### Visual Style
-- Vibrant cartoonish color palette
-- Playful and expressive character designs
-- Smooth 3D animations with exaggerated motions
-- Bright, cheerful lighting
-
-### 3D Rendering
-- Built with React Three Fiber for 3D scene management
-- Simple camera controls allowing users to view the scene from different angles
-- Real-time 3D rendering of all scene elements
-- Interactive 3D environment
-
-### User Interaction
-- Camera controls for scene navigation
-- Ability to trigger scene reload/reset
-- Interactive viewing experience
-
-### Disclaimer Note
-- **Floating Disclaimer**: Semi-transparent clickable note positioned near the bottom-right corner of the 3D scene
-- **Content**: Displays "Disclaimer available at Google Sites."
-- **Styling**: Matches the cartoonish theme of the scene
-- **Animation**: Gentle up-and-down hover motion that doesn't obstruct main character animations
-- **Functionality**: Opens https://sites.google.com in a new tab when clicked
-
-## Technical Requirements
-- 3D game implementation using React Three Fiber
-- Frontend-only game state management
-- Smooth 3D animations and transitions
-- Responsive camera controls
-- English language interface
+**User-visible outcome:** The Stitch character in the 3D scene will visibly wear a necklace around his neck that animates with him.

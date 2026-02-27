@@ -1,0 +1,42 @@
+{
+  "kind": "build_request",
+  "title": "Add a necklace to Stitch character in the 3D scene",
+  "projectName": "Stitch & Angel Scene",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-2",
+      "text": "Add a 3D necklace accessory to the Stitch character in FrogScene.tsx. The necklace should be rendered as a 3D geometry (a chain or band looping around the neck, with a small pendant or bead element) positioned correctly around Stitch's neck, matching his cartoon proportions and color palette (e.g., gold or dark metallic tones).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Add a nacelece"
+        ]
+      },
+      "acceptanceCriteria": [
+        "A necklace geometry is visible around Stitch's neck in the 3D scene",
+        "The necklace consists of at least a looping band or chain element around the neck and a small pendant or decorative element",
+        "The necklace is correctly positioned relative to Stitch's neck and scales appropriately with the character",
+        "The necklace color/material fits Stitch's cartoon aesthetic (e.g., gold, silver, or matching palette)",
+        "The necklace does not clip through or obscure Stitch's face or body in a distracting way",
+        "The necklace moves with Stitch during animations (jump/squash-stretch)"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify files listed in frontend.immutablePaths",
+    "All necklace geometry must be implemented as 3D React Three Fiber components within FrogScene.tsx, consistent with the existing StitchGlasses sub-component pattern"
+  ],
+  "nonGoals": [
+    "Adding a necklace to the Angel character",
+    "Adding any other new accessories beyond the necklace",
+    "Modifying the backend"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "A 3D scene featuring Stitch and Angel playing outside (cartoonish style with disclaimer). Frog content removed. Stitch will have glasses added.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-add-a-pair-of-round-glasses-to-the-stitch-character-in-the-3d-scene-the-glasses-should-be-rendered-as-a-3d-geometry-two-circular-lens-frames-connected-by-a-nose-bridge-positioned-correctly-on-stitch-s-face-matching-his-cartoon-proportions-and-color-palette-e-g-dark-framed-or-wireframe-glasses",
+      "title": "Add a pair of round glasses to the Stitch character in the 3D scene. The glasses should be rendered as a 3D geometry (two circular lens frames connected by a nose bridge) positioned correctly on Stitch's face, matching his cartoon proportions and color palette (e.g., dark-framed or wireframe glasses).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-3d-necklace-accessory-to-the-stitch-character-in-frogscene-tsx-the-necklace-should-be-rendered-as-a-3d-geometry-a-chain-or-band-looping-around-the-neck-with-a-small-pendant-or-bead-element-positioned-correctly-around-stitch-s-neck-matching-his-cartoon-proportions-and-color-palette-e-g-gold-or-dark-metallic-tones",
+      "title": "Add a 3D necklace accessory to the Stitch character in FrogScene.tsx. The necklace should be rendered as a 3D geometry (a chain or band looping around the neck, with a small pendant or bead element) positioned correctly around Stitch's neck, matching his cartoon proportions and color palette (e.g., gold or dark metallic tones).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-2",
+      "summary": "Add a necklace to a character (likely Stitch or Angel)",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "3d",
+  "projectName": "Stitch & Angel Scene",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

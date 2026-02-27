@@ -1,0 +1,18 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as the backend placeholder with no implemented functionality.",
+  "feature_evidence.json": "Feature evidence report confirming the 3D necklace accessory was added to the Stitch character in FrogScene.tsx with high confidence.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend source files describing their roles in the 3D interactive scene project.",
+  "frontend/index.css": "Root Tailwind CSS file defining OKLCH-based CSS custom properties for light and dark themes with default (neutral) color values.",
+  "frontend/index.html": "HTML entry point for the React app titled '3D Interactive Frog Scene' that mounts the app into a root div.",
+  "frontend/src/App.tsx": "Root React component that sets up a full-screen React Three Fiber Canvas with OrbitControls, renders FrogScene and SceneUI, and wraps everything in ThemeProvider.",
+  "frontend/src/components/FrogScene.tsx": "Core 3D scene component defining Stitch with glasses and a gold chain necklace with a star pendant, along with other scene characters and environment elements using React Three Fiber.",
+  "frontend/src/components/SceneUI.tsx": "2D UI overlay component providing play/pause and reload controls, camera instructions, a header, and a footer attribution using shadcn/ui components.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and caches an ICP backend actor (anonymous or authenticated) using React Query, invalidating dependent queries when the identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Custom hook and context provider managing Internet Identity authentication state, including login, logout, and identity persistence via AuthClient.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder module indicating no backend queries are needed for this frontend-only 3D scene.",
+  "frontend/src/index.css": "Global Tailwind CSS file with OKLCH color tokens for a vibrant green/blue cartoonish theme in both light and dark modes, plus base canvas and body styles.",
+  "frontend/src/lib/sceneStore.ts": "Zustand store managing 3D scene animation state including playback toggling, time tracking, and reset functionality.",
+  "frontend/src/main.tsx": "React app entry point that renders the App component wrapped in QueryClientProvider and InternetIdentityProvider.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration with dark mode, custom OKLCH-based color tokens (primary, secondary, sidebar, chart, etc.), border radius, accordion keyframes, and plugins for typography, container queries, and animations.",
+  "project_state.json": "Tracks the current state of the 'Stitch & Angel Scene' 3D project, including existing features (glasses and necklace on Stitch) and a pending new feature request to add a necklace accessory."
+}

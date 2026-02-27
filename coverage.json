@@ -1,0 +1,37 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-27T01:11:30.534Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-2",
+        "summary": "Add a 3D necklace accessory to the Stitch character in FrogScene.tsx. The necklace should be rendered as a 3D geometry (a chain or band looping around the neck, with a small pendant or bead element) positioned correctly around Stitch's neck, matching his cartoon proportions and color palette (e.g., gold or dark metallic tones).",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/FrogScene.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/FrogScene.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/FrogScene.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

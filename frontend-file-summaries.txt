@@ -1,6 +1,6 @@
 {
   "frontend/src/App.tsx": "Main application component that sets up the 3D Canvas with React Three Fiber, includes theme provider, and renders the scene with UI overlay.",
-  "frontend/src/components/FrogScene.tsx": "Core 3D scene component containing all animated characters (frog, angel, user avatar), props (stick, window), environment elements (ground, clouds, lighting), animation logic using useFrame hook, and a floating clickable disclaimer note positioned in the bottom-right corner with gentle up-and-down hover animation that opens Google Sites in a new tab when clicked.",
+  "frontend/src/components/FrogScene.tsx": "Core 3D scene component with Stitch (wrapped in a group with 3D glasses and a gold necklace with chain links and a pink gem star pendant), Angel, user avatar, environment elements, and a floating disclaimer note. Fixed TypeScript error by adding an explicit `ChainLink` interface and typed array declaration for the `useMemo` chain links computation.",
   "frontend/src/components/SceneUI.tsx": "UI overlay component with header, control buttons (play/pause, reload), instructions card, and footer with attribution.",
   "frontend/src/lib/sceneStore.ts": "Zustand store managing scene state including animation playback control and reset functionality.",
   "frontend/src/hooks/useQueries.ts": "Empty placeholder file as no backend queries are needed for this frontend-only 3D scene.",
